@@ -44,8 +44,8 @@ class IP6Source : public Element{
 	click_ip6 _iph6;
 	IP6Address _src;
 	IP6Address _dst;		
-	click_ip6_fragment_ext _frag6_xt;
-	click_ip6_authentication _auth6_xt;
+	//click_ip6_fragment_ext _frag6_xt;
+	//click_ip6_authentication _auth6_xt;
 	
 	//click_ip6_ext _iph6_xt;
 };
